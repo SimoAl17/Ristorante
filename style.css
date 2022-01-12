@@ -1,0 +1,23 @@
+h1{
+    color: crimson;
+    background-color: yellowgreen;
+    width: 20%;
+    height: 40px;
+    min-width: 320px;
+    max-width: 600px;
+    /* overflow: hidden;                    per nascondere gli overflow*/
+    /* overflow: scroll;                    per permettere di scorrere gli overflow*/
+    /* overflow-y: scroll;                  per permettere di scorrere gli overflow solo in verticale*/
+    /* margin: 20px;                        per creare un margine dai bordi della pagina*/
+    /* margin: 20px 10px 15px 5px;          per creare un margine dai bordi della pagina in ordine sù destra giù sinistra*/
+    /* margin-top: 20px;                    per creare un margine dal bordo superiore della pagina*/
+    /* padding: 20px;                       per distanziare gli altri elementi*/
+}
+
+.header-subtitle{
+    color: green;
+}
+
+#pippo{
+    color: tomato;
+}
