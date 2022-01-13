@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap');
+
+h1{
+    color: crimson;
+    background-color: yellowgreen;
+    width: 20%;
+    height: 200px;
+    min-width: 320px;
+    max-width: 600px;
+    border: solid;                          /*rende il bordo visibile. Di default è NONE*/
+    border-width: 5px;
+    border-radius: 10px;                    /*rende il bordo più tondo*/
+    border-top-left-radius: 10px;           /*per rendere tondo un solo angolo*/
+    border-color: darkmagenta;            /*distingue il colore del bordo dal colore del testo*/
+    /* border: solid 5px darkmagenta;       si può scrivere anche così*/
+    /* overflow: hidden;                    per nascondere gli overflow*/
+    /* overflow: scroll;                    per permettere di scorrere gli overflow*/
+    /* overflow-y: scroll;                  per permettere di scorrere gli overflow solo in verticale*/
+    /* margin: 20px;                        per creare un margine dai bordi della pagina*/
+    /* margin: 20px 10px 15px 5px;          per creare un margine dai bordi della pagina in ordine su destra giù sinistra*/
+    /* margin-top: 20px;                    per creare un margine dal bordo superiore della pagina*/
+    /* padding: 20px;                       per distanziare gli altri elementi*/
+    background-image: url(./Images/Ristorante5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-subtitle{
+    color: green;
+}
+
+#pippo{
+    color: tomato;
+}
+
+.nav-link{
+    /* display: inline;                     mantiene sulla stessa riga*/
+    /* display: block;                      manda a capo */
+    display: inline-block;
+    background-color: deeppink;
+    width: 52px;
+}
